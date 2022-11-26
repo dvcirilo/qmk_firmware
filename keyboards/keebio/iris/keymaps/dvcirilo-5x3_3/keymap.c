@@ -21,13 +21,13 @@ KC_NO, KC_NO, KC_F6, KC_F7, KC_F8, KC_F9, KC_F10, KC_HOME, KC_PGDN, KC_PGUP, KC_
 
 bool get_hold_on_other_key_press(uint16_t keycode, keyrecord_t *record) {
     switch (keycode) {
-        case LT(2, KC_BSPC):
+        case LT(3, KC_BSPC):
             // Immediately select the hold action when another key is pressed.
             return true;
-        case LT(3, KC_ESC):
+        case LT(4, KC_ESC):
             // Immediately select the hold action when another key is pressed.
             return true;
-        case LT(4, KC_DEL):
+        case LT(5, KC_DEL):
             // Immediately select the hold action when another key is pressed.
             return true;
         default:
@@ -38,7 +38,7 @@ bool get_hold_on_other_key_press(uint16_t keycode, keyrecord_t *record) {
 
 bool get_permissive_hold(uint16_t keycode, keyrecord_t *record) {
     switch (keycode) {
-        case LT(1, KC_SPC):
+        case LT(2, KC_SPC):
             // Immediately select the hold action when another key is tapped.
             return true;
         default:

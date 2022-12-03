@@ -77,7 +77,7 @@
       "RSFT_T(KC_SLSH)",
       "LT(4,KC_ESC)",
       "LALT_T(KC_TAB)",
-      "KC_TRNS",
+      "LCTL_T(KC_ENT)",
       "LT(2,KC_SPC)",
       "LT(3,KC_BSPC)",
       "LT(5,KC_DEL)"
@@ -168,7 +168,7 @@
       "KC_NO",
       "KC_NO",
       "KC_NO",
-      "QK_BOOT",
+      "KC_NO",
       "LSA(KC_1)",
       "LSA(KC_2)",
       "LSA(KC_3)",
@@ -194,7 +194,7 @@
       "DF(1)",
       "KC_NO",
       "KC_NO",
-      "KC_NO"
+      "QK_BOOT"
     ],
     [
       "KC_F1",
